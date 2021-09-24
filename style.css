@@ -1,2 +1,92 @@
+body {
+    margin: 0;
+    height: 100vh;
+    
+}
 
-* {border: 2px solid red;}
+
+/* ---- HEADER ----- */
+.header {
+    background-color: #1f2937;
+    color: white;
+    height: 500px;
+}
+
+/* ---- INFO ---- */
+.section-info {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ---- QUOTE ---- */
+.section-quote {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote-text {
+    font-size: 24px;
+    font-style: italic;
+}
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* ---- ACTION ---- */
+.section-action {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    background-color: #3882f6;
+    padding: 24px 96px;
+    
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 48px;
+    
+}
+
+/* ---- FOOTER ---- */
+.footer {
+    background-color: #1f2937;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+
+
+/* * {border: 2px solid red;} */
