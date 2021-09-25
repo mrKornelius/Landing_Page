@@ -2,6 +2,8 @@ body {
     margin: 0;
     height: 100vh;
     
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -10,7 +12,49 @@ body {
     background-color: #1f2937;
     color: white;
     height: 500px;
+    padding: 24px 10%;
 }
+    /* --- top --- */
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        font-size: 24px;
+        color: #f9faf8;
+    }
+
+    .menu-links {
+        font-size: 18px;
+        color: #e5e7eb;
+        display: flex;
+        gap: 20px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        gap: 20px;
+    }
+
+    /* --- hero --- */
+    .hero-content-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        border: 2px solid red;
+    }
+
+    .hero-title {
+        font-size: 48px;
+        font-weight: bold;
+        color: #f9faf8;
+    }
+
+
 
 /* ---- INFO ---- */
 .section-info {
