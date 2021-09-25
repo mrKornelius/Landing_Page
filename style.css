@@ -1,16 +1,12 @@
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* height: 100vh; */
-    
-    /* display: flex;
-    flex-direction: column; */
 }
 
 
 /* ---- HEADER ----- */
 .header, 
-.hero-content-wrapper {
+.hero-wrapper {
     background-color: #1f2937;
     color: white;
     padding: 0px 10%;
@@ -42,21 +38,18 @@ body {
 ul {
     margin: 0;
     padding: 0;
-
     display: flex;
     gap: 20px;
 }
 
 /* --- hero --- */
-.hero-content-wrapper {
+.hero-wrapper {
     height: 436px;
     display: flex;
     flex-direction: row;
     gap: 24px;
     justify-content: center;
     align-items: center;
-
-    /* border: 2px solid red; */
 }
 
 .hero-title {
@@ -84,13 +77,11 @@ button {
     padding: 8px 32px;
 }
 
-
 /* ---- INFO ---- */
 .section-info {
     height: 440px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     align-items: center;
 
 }
